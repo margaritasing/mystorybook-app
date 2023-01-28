@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Semantic Release
+name: Semantic Styles
 
 # Controls when the workflow will run
 on:
@@ -32,7 +32,7 @@ jobs:
       - name: Build App
         run: yarn build
 
-      - name: Semantic Release
+      - name: Semantic Styles
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN_STYLES }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN_STYLE }}
