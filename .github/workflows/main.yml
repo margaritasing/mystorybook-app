@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 14.17
+          node-version: 16
 
       - name: Install Dependencies
         run: yarn install
@@ -34,6 +34,6 @@ jobs:
 
       - name: Semantic Release
         env:
-          GH_TOKEN_STYLES: ${{ secrets.GH_TOKEN_STYLES }}
-          NPM_TOKEN_STYLE: ${{ secrets.NPM_TOKEN_STYLE }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN_STYLES }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN_STYLE }}
         run: npx semantic-release
