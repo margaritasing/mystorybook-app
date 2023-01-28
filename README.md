@@ -3,7 +3,7 @@
 Este paquete sirve para practicar React Componentes + Storybook + NPM Publish
 
 ```
-yarn add fh-my-storybook-components
+yarn add lmfm-my-storybook-components
 ```
 
 ### Demo:
