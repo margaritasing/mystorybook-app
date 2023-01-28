@@ -1,13 +1,13 @@
 {
-  "name": "fh-my-storybook-components",
-  "version": "0.1.0",
+  "name": "lmfm-my-storybook-components",
+  "version": "0.0.1",
   "private": false,
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "homepage": "https://fernando-herrera.com",
+  "homepage": "https://portafoliolibiamfreitesm.web.app/",
   "repository": {
-    "url": "https://github.com/Klerith/sb-components",
+    "url": "https://github.com/margaritasing/mystorybook-app",
     "type": "git"
   },
   "peerDependencies": {
